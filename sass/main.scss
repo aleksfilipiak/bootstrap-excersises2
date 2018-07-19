@@ -1,0 +1,193 @@
+.main-conatiner{
+  width: 1800px;
+
+}
+
+//zostaw padding w spokoju!
+
+.main-conatiner.container-fluid{
+  padding: 0;
+  .container{
+    padding: 0;
+  }
+  //zmiana paddingu tu nie działa
+}
+
+
+
+$container-width: 1170px;
+
+
+
+.container{
+  width: $container-width;
+
+}
+
+.bg-blue1 {
+  background-color: red;
+  height: 100px;
+padding-left: 0;
+
+}
+
+div.col-lg-5.bg-blue1{
+  padding: 0;
+}
+
+div.col-lg-7.bg-blue2{
+  padding: 0;
+}
+
+
+.bg-blue2 {
+  background-color: #70728b;
+  height: 100px;
+}
+
+.col-lg-7.bg-green1{
+  padding: 0;
+}
+
+
+
+.faq-sign{
+  position: relative!important;
+  height: 233px;
+  .img1{
+  position: absolute!important;
+    top: 33px;
+    left: 308px;
+  }
+  .img2{
+    position: absolute!important;
+    top: 139px;
+    left: 399px
+  }
+}
+
+
+div.col-lg-12.set{
+  padding-left: 0;
+  margin-bottom: 7px;
+}
+
+
+
+
+
+.test1, .test2 {
+  padding: 6px 0;
+
+}
+
+.test1{
+  flex:1;
+}
+
+.test2{
+  width: 735px;
+  display: flex;
+  align-items: center;
+  position: relative !important;
+  img{
+    position: absolute !important;
+    right:50px;
+  }
+}
+
+.number{
+  text-align: center;
+  width: 60px;
+  font-size: 2.5rem;
+  border-right: 1px solid black;
+  padding-right: 6px;
+}
+
+.text{
+  padding-left: 25px;
+  font-size: 1.7rem;
+}
+
+.lorem{
+  padding-left: 85px;
+  padding-right: 80px;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  padding-top: 5px;
+  letter-spacing: 0.01rem;
+}
+
+.test3, .test4{
+  height: 50px;
+  border: yellow 1px dotted;
+
+}
+
+
+
+.bg-green1{
+ justify-content: flex-end;
+
+}
+
+.col-lg-6{
+  padding: 0;
+}
+
+.col-lg-6.bg-green1, .col-lg-6.bg-green2{
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.bg-trans{
+  background-color: #EBEBEB;
+}
+
+.space{
+  justify-content: space-between;
+}
+
+.active{
+  display: flex;
+}
+
+.content{
+  display: none;
+}
+
+.col-lg-5.bg-green2{
+  padding-left: 35px;
+  padding-right: 0;
+}
+
+.bg-black{
+  background-color: #000000;
+}
+
+
+.flex.bg-black{
+  border-top-left-radius: 30px;
+}
+
+
+
+div.docs-img.bg-black{
+  padding-left: 35px;
+  padding-top: 5px;
+}
+
+.test3{
+  width: 100px;
+}
+
+
+.prices{
+  color:white;
+  padding-top: 43px;
+  font-size: 1.8rem;
+  padding-left: 36px;
+}
