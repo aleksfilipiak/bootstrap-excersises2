@@ -33,15 +33,16 @@ padding-left: 0;
 
 div.col-lg-5.bg-blue1{
   padding: 0;
+
 }
 
 div.col-lg-7.bg-blue2{
-  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 
 .bg-blue2 {
-  background-color: #70728b;
   height: 100px;
 }
 
@@ -120,7 +121,6 @@ div.col-lg-12.set{
 
 .test3, .test4{
   height: 50px;
-  border: yellow 1px dotted;
 
 }
 
@@ -190,4 +190,15 @@ div.docs-img.bg-black{
   padding-top: 43px;
   font-size: 1.8rem;
   padding-left: 36px;
+
 }
+
+
+.price{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+
