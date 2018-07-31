@@ -4,8 +4,8 @@ $(function () {
     $(".set > div").on("click", function () {
         if($(this).hasClass('active')){
 $(this).removeClass('active');
-$(this).siblings('.content').slideUp(200);
-/
+$(this).siblings('.content').slideUp(200)
+
         }else{
             
             $(".set > div").removeClass('active');
